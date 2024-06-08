@@ -1,0 +1,94 @@
+header {
+    background-color: #399659;
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-size: 25px;
+    font-family: cursive;
+    color: lightyellow;
+    margin-left: 20px;
+}
+
+.logo{
+    height:70px;
+    width: 70px;
+    margin-left: 20px;
+}
+.searchbar{
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+.navButton{
+    color: yellowgreen;
+    background-color: midnightblue;
+    margin: 20px 40px
+}
+.mainPart{
+    margin: 0 40px;
+}
+
+.productPic{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    filter: brightness(1);
+}
+.productPic:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.titlePosition{
+    position: absolute;
+}
+
+.buttonPosition{
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+.container{
+    margin:30px 300px;
+}
+.productDetailPic{
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+    float: left;
+    position: relative;
+}
+.picCenter{
+    margin: auto;
+}
+.price{
+    font-weight: bold;
+    font-size: large;
+    color: forestgreen;
+}
+.quantity{
+    font-style: italic;
+    font-size: medium;
+    color: black;
+}
+.detailTable{
+    margin: 130px;
+    font-size: x-large;
+}
+.deliveryTitle{
+    text-align: center;
+    font-weight: bold;
+}
+.cartPic{
+    width:90px;
+}
+.emailPageTable{
+    height: fit-content;
+}
+
